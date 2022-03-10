@@ -1,0 +1,37 @@
+.pagination-container {
+    display: flex;
+  }
+  
+  .delete-button {
+    width: 120px;
+    height: 46px;
+    font-family: 'Roboto';
+    font-size: 16px;
+    border: 0px solid;
+    border-radius: 15px;
+    margin-right: 6vw;
+    margin-left: 20px;
+    color: rgb(37, 30, 30);
+    background-color: rgb(218, 95, 119);
+  }
+  
+  .pagination-controls {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 40vw;
+    margin-top: 0px;
+  }
+  
+  .navigation-button {
+    padding: 12px;
+    font-family: 'Roboto';
+    height: 40px;
+    width: 40px;
+    font-weight: 600;
+    margin-right: 20px;
+    border-radius: 12px;
+  }
+  

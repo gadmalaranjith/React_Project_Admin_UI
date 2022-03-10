@@ -1,0 +1,107 @@
+.bg-container{
+background-image: linear-gradient(to right, rgb(156, 156, 235), rgb(226, 137, 137));
+}
+
+
+.user-details {
+    display: flex;
+    flex-direction: column;
+    padding: 22px;
+  }
+  
+  .user-input {
+    width: 35vw;
+    font-size: 18px;
+    font-family: sans-serif;
+    border-radius: 10px;
+    padding: 10px;
+     margin-left: 30px;
+    margin-top: 10px;
+    border: 1px solid rgb(67, 94, 218);
+  }
+  
+  .loader-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    color: grey;
+  }
+  
+  .users-list-data {
+    min-height: 70vh;
+    list-style: none;
+
+  }
+  
+  .list-nav {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgb(22, 19, 19);
+    width: 90%;
+  }
+  .allCheck{
+    display: flex;
+    flex-direction: row;
+    margin-right: 10vw;
+align-items: center;
+  }
+  .nav-checkbox {
+   
+    margin-left: 30px;
+    width: 20px;
+    height: 20px;
+  }
+  .all{
+    font-size: 24px;
+    font-family: cursive;
+    margin-right: 10px;
+  }
+  .nav-name {
+    font-size: 24px;
+    font-family: cursive;
+    width: 18vw;
+    margin-right: 10px;
+  }
+  
+  .nav-email {
+    font-size: 26px;
+    font-family: cursive;
+    width: 19vw;
+    margin-left: 18px;
+  }
+  
+  .nav-role {
+    font-size: 24px;
+    font-family: cursive;
+    width: 18vw;
+  }
+  
+  .nav-actions {
+    font-size: 24px;
+    font-family: cursive;
+    width: 20vw;
+  }
+  .text{
+    font-size: 20px;
+    font-family: cursive;
+  }
+  .not-found-container{
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+  }
+  .not-found-image {
+    width: 400px;
+    margin-top: 20px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+    height: 400px
+  }
+  .not-found-details{
+    font-family: cursive;
+    font-size: 30px;
+    font-weight: 500;
+  }
